@@ -1,0 +1,20 @@
+{
+  "semi": false,
+  "useTabs": true,
+  "printWidth": 100,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "jsxBracketSameLine": true,
+  "endOfLine": "lf",
+  "overrides": [
+    {
+      "files": ".editorconfig",
+      "options": { "parser": "yaml" }
+    },
+    {
+      "files": "LICENSE",
+      "options": { "parser": "markdown" }
+    }
+  ]
+}

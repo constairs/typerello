@@ -1,0 +1,17 @@
+{
+	"plugins": [
+		"@babel/plugin-proposal-class-properties",
+		"@babel/plugin-proposal-object-rest-spread",
+		[
+			"react-hot-loader/babel",
+			{
+			"safetyNet": false
+			}
+		]
+	],
+	"presets": [
+		"@babel/preset-env",
+		"@babel/preset-react",
+		"@babel/preset-typescript"
+	]
+}
