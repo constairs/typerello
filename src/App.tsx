@@ -1,10 +1,17 @@
-import React from 'react'
-import { hot } from 'react-hot-loader'
+import React from 'react';
+import { hot } from 'react-hot-loader';
+import { Provider } from 'react-redux';
+import { Profile } from './Components/Profile';
+import { configureStore } from './redux/store';
+
+const store = configureStore();
 
 const App = () => (
-	<div>
-		<h2>Test</h2>
-	</div>
-)
+	<Provider store={store}>
+		<>
+			<Main />
+		</>
+	</Provider>
+);
 
-export default hot(module)(App)
+export default hot(module)(App);
